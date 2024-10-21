@@ -1,38 +1,102 @@
-﻿
-div {
-    color: #026363;
-    width: 250px;
-    padding-left: 10px;
-    height: 100vh;
-    background-image: linear-gradient(
-            30deg,
-            #497e76,
-            #99c4be
-    );
-    border-top-right-radius: 15px;
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
 }
-/* Div header */
-div h2 {
-    font-size: 26px;
-    padding: 40px 0 0 0;
-    cursor: pointer;
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-/* Div links */
-div a {
-    font-size: 20px;
-    color: #fff;
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
+
+h2 {
+    color: #333;
+    margin-top: 40px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #e0f7fa;
+    border-left: 4px solid #00acc1;
+    border-radius: 4px;
+}
+
+.sidebar {
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.sidebar a {
     display: block;
-    padding: 12px;
-    padding-left: 30px;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
     text-decoration: none;
-    outline: none;
+    margin-bottom: 10px;
+    text-align: center;
+    border-radius: 4px;
 }
-/* Div link on hover */
-div a:hover {
-    color: #026363;
-    background: #fff;
-    position: relative;
-    background-color: #fff;
-    border-top-left-radius: 22px;
-    border-bottom-left-radius: 22px;
+
+.sidebar a:hover {
+    background-color: #2980b9;
+}
+
+.main-content {
+    overflow: hidden;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.home-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.home-button:hover {
+    background-color: #2980b9;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+@media (max-width: 600px) {
+    .sidebar {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main-content {
+        padding-left: 0;
+    }
 }
