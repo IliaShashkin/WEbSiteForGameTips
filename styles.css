@@ -1,0 +1,38 @@
+﻿
+div {
+    color: #026363;
+    width: 250px;
+    padding-left: 10px;
+    height: 100vh;
+    background-image: linear-gradient(
+            30deg,
+            #497e76,
+            #99c4be
+    );
+    border-top-right-radius: 15px;
+}
+/* Div header */
+div h2 {
+    font-size: 26px;
+    padding: 40px 0 0 0;
+    cursor: pointer;
+}
+/* Div links */
+div a {
+    font-size: 20px;
+    color: #fff;
+    display: block;
+    padding: 12px;
+    padding-left: 30px;
+    text-decoration: none;
+    outline: none;
+}
+/* Div link on hover */
+div a:hover {
+    color: #026363;
+    background: #fff;
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
