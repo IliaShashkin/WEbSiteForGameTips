@@ -1,6 +1,6 @@
 ﻿body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #efefef;
     margin: 0;
     padding: 20px;
 }
@@ -9,24 +9,27 @@
     max-width: 1500px;
     margin: auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0);
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadows on the main box  */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.34);
 }
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #ff0000;
+    font-size: 50px;
 }
 
 p {
     line-height: 1.6;
     color: #555;
+    font-size: 18px;
 }
 
 h2 {
     color: #333;
     margin-top: 40px;
+    font-size: 28px;
 }
 
 ul {
@@ -37,7 +40,7 @@ ul {
 ul li {
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #fae0e2;
+    background-color: rgb(250, 224, 226);
     border-left: 4px solid #c10000;
     border-radius: 4px;
 }
@@ -57,10 +60,11 @@ ul li {
     margin-bottom: 10px;
     text-align: center;
     border-radius: 4px;
+    font-size: 22px;
 }
 
 .sidebar a:hover {
-    background-color: #97000a;
+    background-color: #7e010b;
 }
 
 .main-content {
