@@ -32,10 +32,10 @@ The website will include the following features:
 - **CSS**
 
 ## Deliverables
-- *[List what you will submit upon project completion, such as all source code files, documentation, and any other relevant materials.]*
+- *webpages for all respective games including the style sheets. And all external resources*
 
 ## Submission Instructions
 - *[Provide details on how and where to submit your project.]*
 
 ## Resources
-- *[List any resources, tutorials, or references you plan to use.]*
+- *[Offical WarThunder Wiki](https://wiki.warthunder.com/Main_Page)*
