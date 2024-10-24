@@ -6,12 +6,12 @@
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 5000px;
     margin: auto;
     padding: 20px;
     background-color: white;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadows on the main box  */
 }
 
 h1 {
@@ -37,21 +37,21 @@ ul {
 ul li {
     margin-bottom: 10px;
     padding: 10px;
-    background-color: #e0f7fa;
-    border-left: 4px solid #00acc1;
+    background-color: #fae0e2;
+    border-left: 4px solid #c10000;
     border-radius: 4px;
 }
 
 .sidebar {
     float: left;
-    width: 200px;
+    width: 300px;
     margin-right: 20px;
 }
 
 .sidebar a {
     display: block;
     padding: 10px;
-    background-color: #3498db;
+    background-color: #c10000;
     color: white;
     text-decoration: none;
     margin-bottom: 10px;
@@ -60,7 +60,7 @@ ul li {
 }
 
 .sidebar a:hover {
-    background-color: #2980b9;
+    background-color: #97000a;
 }
 
 .main-content {
@@ -74,20 +74,20 @@ ul li {
 
 .home-button {
     padding: 10px 20px;
-    background-color: #3498db;
+    background-color: #97000a;
     color: white;
     text-decoration: none;
     border-radius: 4px;
 }
 
 .home-button:hover {
-    background-color: #2980b9;
+    background-color: #c10000;
 }
 
 .footer {
     margin-top: 40px;
     text-align: center;
-    font-size: 0.9em;
+    font-size: 0.5em;
     color: #777;
 }
 
