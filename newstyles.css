@@ -1,0 +1,147 @@
+﻿/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(145deg, #101010, #202020);
+    color: #eaeaea;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #181818;
+    padding: 20px;
+}
+
+.nav-bar ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-bar li {
+    margin: 0 15px;
+}
+
+.nav-bar a {
+    color: #eaeaea;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-bar a:hover {
+    color: #f7b32b;
+}
+
+.hero {
+    height: 80vh;
+    background-image: url('media/back.png'); /* Placeholder for the background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.content {
+    padding: 50px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: #181818;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer p {
+    color: #8c8c8c;
+}
+.buttons-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.button-wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0);
+    background-size: cover;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    background-image: url("media/buttonForTheFinals.gif");
+}
+.btn-gif1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.2);
+    background-size: cover;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    background-image: url("media/buttonForValorant.gif");
+}
+.btn-gif2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.28);
+    background-size: cover;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    background-image: url("media/.gif");
+}
+
+.btn-gif:hover {
+    transform: scale(1.05);
+}
+
+.btn-text {
+    color: #000;
+    font-size: 1.5em;
+    background-color: rgba(173, 173, 173, 0.72);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
