@@ -84,12 +84,7 @@ ul li {
     background-color: #c10000;
 }
 
-.footer {
-    margin-top: 40px;
-    text-align: center;
-    font-size: 0.5em;
-    color: #777;
-}
+
 
 @media (max-width: 600px) {
     .sidebar {
