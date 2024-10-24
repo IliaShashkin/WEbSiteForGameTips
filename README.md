@@ -37,5 +37,3 @@ The website will include the following features:
 ## Submission Instructions
 - *[Provide details on how and where to submit your project.]*
 
-## Resources
-- *[Offical WarThunder Wiki](https://wiki.warthunder.com/Main_Page)*
