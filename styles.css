@@ -44,7 +44,7 @@ ul li {
 
 .sidebar {
     float: left;
-    width: 300px;
+    Max-width: 300px;
     margin-right: 20px;
 }
 
